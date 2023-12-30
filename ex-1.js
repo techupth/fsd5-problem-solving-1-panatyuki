@@ -2,6 +2,11 @@
 
 const addStrings = function (num1, num2) {
   //Start coding here
+  // แปลงให้ค่าของพารามิเตอร์เป็น Number ด้วย parseInt
+  const result = parseInt(num1) + parseInt(num2);
+
+  // แปลงผลลัพธ์กลับเป็น string ด้วย toString
+  return result.toString();
 };
 
 const result1 = addStrings("11", "123");
